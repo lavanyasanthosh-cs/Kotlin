@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a4cc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="111dp"
+        android:fontFamily="monospace"
+        android:text="HAPPY BIRTHDAY RAAGA!"
+        android:textColor="@color/purple_500"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="343dp"
+        android:layout_height="401dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        app:srcCompat="@drawable/hp" />
+
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="213dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FROM POORVI."
+        android:textAlignment="viewEnd"
+        android:textSize="30dp" />
+
+</LinearLayout>
